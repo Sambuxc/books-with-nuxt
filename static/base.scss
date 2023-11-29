@@ -1,10 +1,21 @@
 body {
+  @apply bg-gray-900 border-8 border-cyan-700 text-slate-300;
   height: 100vh;
   display: flex;
-  border: 8px solid mediumseagreen;
 }
 
 #__nuxt {
   padding: 8px;
   width: 100%;
+}
+
+a {
+  @apply hover:text-slate-400;
+}
+
+// TODO:
+// test box shadow
+ul {
+  // @apply shadow;
+  box-shadow: 10px 1px 3px 1 rgb(255 255 255 / 0.9);
 }

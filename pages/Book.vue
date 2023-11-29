@@ -5,13 +5,13 @@
 
     <ul class="my-5 ring-4">
       <li>
-        <nuxt-link to="/book/detail" class="text-blue-500 hover:text-blue-900">Book 1</nuxt-link>
+        <nuxt-link to="/book/detail">Book 1</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/book/detail" class="text-blue-500 hover:text-blue-900">Book 2</nuxt-link>
+        <nuxt-link to="/book/detail">Book 2</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/book/detail" class="text-blue-500 hover:text-blue-900">Book 3</nuxt-link>
+        <nuxt-link to="/book/detail">Book 3</nuxt-link>
       </li>
     </ul>
     <nuxt-child />

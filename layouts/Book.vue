@@ -1,7 +1,6 @@
 <template>
   <div>
-    <app-nav />
+    <h2>Book Layout</h2>
     <Nuxt />
-    <app-footer />
   </div>
 </template>
